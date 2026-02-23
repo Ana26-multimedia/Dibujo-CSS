@@ -49,4 +49,41 @@ align-items:center;
 
 }
         
+#boca { justify-content: center;
+        width: 30%;
+        height:20%;
+        background-color: rgb(227, 58, 58);
+        position: absolute;
+        top:60%;
+        left: 35%;
+        border-radius: 0 0 50% 50%;
+}
 
+#nariz{ justify-content: center;
+
+width: 40px;
+  height: 40px;
+  background-color: #ffe5c4; /* Color de piel */
+  border-radius: 30%;
+  position: relative;
+  margin: 50px auto;
+  box-shadow: 0 4px 6px rgba(0,5,0, 8); /* Sombra inferior */
+  top: 35%;
+}
+
+.pupilas{ 
+        width: 30%;
+        height: 30%;
+        border-radius: 50%;
+        background-color: rgb(123, 87, 57);
+         position:absolute;
+    }
+
+     #puilaizq { top: 10%;
+            left: 20%;
+     }
+
+
+#pupilader{ top: 20%;
+    right: 20%;
+    }
