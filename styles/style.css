@@ -1,9 +1,11 @@
 body{ 
-     background-color: rgb(255, 212, 148);
+     background-color: rgba(109, 174, 187, 0.522);
 }
 
 h1 {
     color: blueviolet;
+    text-align: center;
+    font-size: 4em; 
  }
 
  div 
@@ -11,16 +13,25 @@ h1 {
 width: 50vw} 
  
 .divrojo { 
-    background-color: aquamarine;
+    background-color: rgb(174, 255, 246);
 }
  #divunico  { background-color: aqua(43, 226, 171);}
 
  #dibujo{ width: 40vw;
         height:  40vw;
-    background-color: rgb(255, 0, 187);
+    background-color: rgb(215, 106, 186);
 display:flex;
 justify-content: center; 
 align-items:center;
+  animation-name: cambiarelcolor;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes cambiarelcolor{
+  0%   {background-color: rgb(117, 42, 108);}
+  25%  {background-color: rgba(178, 255, 185, 0.718);}
+  50%  {background-color: rgb(114, 208, 255);}
+  100% {background-color: rgb(255, 125, 184);}
 }
 
     #cara { width: 60%;
@@ -37,6 +48,8 @@ align-items:center;
         background-color: aliceblue;
          position:absolute;
     }
+
+    
 
      #ojoizq { top: 20%;
             left: 20%;
@@ -57,7 +70,12 @@ align-items:center;
         top:60%;
         left: 35%;
         border-radius: 0 0 50% 50%;
+        transition: all 3s; ease-in
 }
+#boca:hover
+{ left: 55%;
+  background-color:pink;}
+
 
 #nariz{ justify-content: center;
 
@@ -72,11 +90,14 @@ width: 40px;
 }
 
 .pupilas{ 
-        width: 40%;
-        height: 40%;
+        width: 45%;
+        height: 45%;
         border-radius: 50%;
         background-color: rgb(123, 87, 57);
         position:absolute;
+    }
+
+    .pupilas:hover{ transform: rotate(360deg) scale(0.6);
     }
 
 
@@ -97,7 +118,15 @@ width: 40px;
 }
 .sombrero { position: absolute; 
 top: 0;
+transition: all 5s ease-in;
 }
+
+.sombrero:hover {
+  transform: translateX(-330px);
+  
+}
+
+
 .copa {
   width: 100px;
   height: 80px;
