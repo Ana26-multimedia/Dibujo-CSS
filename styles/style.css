@@ -7,7 +7,7 @@ h1 {
  }
 
  div 
- { background-color: aqua;
+ { background-color: rgba(0, 255, 255, 0);
 width: 50vw} 
  
 .divrojo { 
@@ -88,3 +88,32 @@ width: 40px;
 #pupilader { top: 20%;
     right: 20%;
     }
+
+    .personaje {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin: 50px auto;
+}
+.sombrero { position: absolute; 
+top: 0;
+}
+.copa {
+  width: 100px;
+  height: 80px;
+  background-color: #333;
+  margin: 0 auto;
+  border-radius: 10px 10px 0 0; 
+  position: relative;
+  z-index: 2;
+}
+
+.ala {
+  width: 160px;
+  height: 20px;
+  background-color: #333;
+  margin: -5px auto 0; 
+  border-radius: 50px; 
+  position: relative;
+  z-index: 2;
+}
