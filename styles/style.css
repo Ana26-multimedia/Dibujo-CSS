@@ -72,18 +72,19 @@ width: 40px;
 }
 
 .pupilas{ 
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
         border-radius: 50%;
         background-color: rgb(123, 87, 57);
-         position:absolute;
+        position:absolute;
     }
 
-     #puilaizq { top: 10%;
+
+    #pupilaizq { top: 20%;
             left: 20%;
      }
 
 
-#pupilader{ top: 20%;
+#pupilader { top: 20%;
     right: 20%;
     }
