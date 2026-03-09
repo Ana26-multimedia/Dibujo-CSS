@@ -146,3 +146,5 @@ transition: all 5s ease-in;
   position: relative;
   z-index: 2;
 }
+
+#texto { font-size-adjust: calc(2); }
