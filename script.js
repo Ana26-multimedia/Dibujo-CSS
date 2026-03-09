@@ -3,7 +3,7 @@ console.log("EYYYYY Helloo");
 const donpepito = document.getElementById("donpepito");
 const dialogo = document.getElementById("texto");
 
-const listatextos = [ "Hola Don pepito", "Hellooo Don jose", "Paso usted por mi casa" ,"por su casa yo pase" ,"vio usted a mi abuela" ,"a su abuela yo la vi","adios don pepito", "adios don jose"];
+const listatextos = [ "Hola Don pepito", "Hellooo Don jose", "Paso usted por mi casa" ,"por su casa yo pase" ,"vio usted a mi abuela" ,"a su abuela yo la vi","adios Don pepito", "adios Don jose"];
 
 
 let estadoinicial = true;
